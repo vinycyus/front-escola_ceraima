@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    color: #FFFFFF;
+    border: none;
+}
+body{
+    font-size: 100%;
+    background-color: #DBBE4B;
+  }
+
+.cabeçalho{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 118px;
+    border-bottom: 2px solid #FFFFFF;
+}
+.nome_escola{
+    color: #FFFFFF;
+}
+.conteudo{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 30px;
+}
+.conteudo-1{
+    width: 30%;
+    border-right: 2px solid #FFFFFF;
+    
+}
+.img-estudante{
+    height: 500px;
+    margin-right: 50px;
+}
+.conteudo-2{
+    background-color: #9F2928;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 400px;
+    height: 420px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.img-login{
+    width: 150px;
+}
+.form-login{
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+    gap: 8px;
+}
+#email, #senha, #nome, #c_senha {
+    width: 350px;
+    height: 18px;
+    display: flex;
+    background-color: #D9D9D9;
+    color: black;
+
+}
+
+#conectado{
+    align-items: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.botao_logar, .botao_cadastro{
+    width: 350px;
+    height: 25px;
+    background-color: #FBFF00;
+    color:black;
+    align-items: center;
+    font-size: 15px;
+    font-weight: 790;
+    margin-bottom: 8px;
+    cursor: pointer;
+    margin-top: 14px;
+    font-style: italic;
+}
+.botao_cadastrar{
+    position: relative;
+    width: 100px;
+    height: 20px;
+    color: black;
+    background-color: #FBFF00;
+    font-size: 13px;
+    font-weight: 780;
+    left: 250px;
+    cursor:pointer;
+}
+.navbar{
+    min-height: 100vh;
+    background-color: #9F2928;
+}
+
